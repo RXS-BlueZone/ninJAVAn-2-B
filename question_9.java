@@ -13,11 +13,9 @@ public class question_9 {
         System.out.print("Enter the value of 'b': ");
         b = scanner.nextInt();
 
-        boolean condition1 = a < 50;
-        boolean condition2 = a < b;
+        boolean bothConditionsTrue = a < 50 && a < b;
 
-       System.out.println("Condition 'a < 50': " + condition1);
-       System.out.println("Condition 'a < b': " + condition2);
+       System.out.println(bothConditionsTrue);
        
        scanner.close();
     }

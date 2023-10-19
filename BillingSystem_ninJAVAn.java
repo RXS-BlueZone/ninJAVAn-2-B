@@ -1,5 +1,3 @@
-package oop_midterms;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
